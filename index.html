@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Digital-Clock</title>
+	<link rel="stylesheet" href="css/style.css"> 
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <section class="clock">
+    <div class="container col">
+	    <h2 class="color"></h2>
+		<p class="border"></p>
+		<p class="in-bor"></p>
+		<p id="name"></p>
+		<h1 class="out">DATE<span class="out1">MONTH</span><span class="out2">YEAR</span></h1>
+		<p class="date" id="date"></p><span id="month"></span> <span id="year"></span>
+		<h1 class="out4">HOURS<span class="out5">MINUTES</span><span class="out6">SECONDS</span></h1>
+		<p class="time" id="hours"></p><span id="minutes"></span> <span id="seconds"></span>
+		<div class="day" id="day1">
+		    <input type="radio" id="get" name="every" value="SUN" readonly>
+			<label for="get">SUN</label>
+			<input type="radio" id="get1" name="every" value="MON" readonly>
+			<label for="get1">MON</label>
+			<input type="radio" id="get2" name="every" value="TUE" readonly>
+			<label for="get2">TUE</label>
+			<input type="radio" id="get3" name="every" value="WED" readonly>
+			<label for="get3">WED</label>
+			<input type="radio" id="get4" name="every" value="THU" readonly>
+			<label for="get4">THU</label>
+			<input type="radio" id="get5" name="every" value="FRI" readonly>
+			<label for="get5">FRI</label>
+			<input type="radio" id="get6" name="every" value="SAT" readonly>
+			<label for="get6">SAT</label>
+		</div>
+		<div class="temp">
+		    <label for="degree" class="act">TEMP</label>
+			<input type="text" id="degree" value=29 autofocus="on" readonly class="active">
+			<span class="act">.c</span>
+		</div>
+		<div class="mor" id="nig">
+		    <input type="radio" id="nig1" name="ball" value="AM" readonly>
+			<label for="nig1">AM</label><br>
+			<input type="radio" id="nig2" name="ball" value="PM" readonly>
+			<label for="nig2">PM</label>
+		</div>		
+	</div>
+	</section>
+    <script src="js/main.js"></script>
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>	
+</body>
+</html>
