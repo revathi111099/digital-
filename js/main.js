@@ -15,7 +15,7 @@ yearIn.innerText=c;
 function time(){
 	let	a=new Date();
 	let hoursIn=document.getElementById("hours");
-	hoursIn.innerText=a.getHours()-12;
+	hoursIn.innerText=a.getHours();
 	let e=a.getMinutes();
     let minutesIn=document.getElementById("minutes");
 	minutesIn.innerText=":"+" "+e;
